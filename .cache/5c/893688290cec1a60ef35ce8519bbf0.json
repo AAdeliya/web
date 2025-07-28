@@ -1,0 +1,1 @@
+{"id":"index.html","dependencies":[{"name":"./src/index.ts","dynamic":true,"resolved":"/Users/adeliya/web/src/index.ts","parent":"/Users/adeliya/web/index.html"}],"generated":{"html":"<html>\n  <body>\n    <script src=\"/f41e9d04a45c83f3b6f6e630f10117fe.js\"></script>\n\n</body></html>"},"sourceMaps":null,"error":null,"hash":"b7572a706a0330241cf04aa7c0a6af35","cacheData":{}}
