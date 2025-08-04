@@ -25,7 +25,6 @@ events: { [key: string]: Callback[]} = {};
     const handlers = this.events[eventName] || [];
     handlers.push(callback);
     this.events[eventName] = handlers;
-
   }
 
   trigger(eventName: string): void {
