@@ -39,6 +39,5 @@ events: { [key: string]: Callback[]} = {};
       callback();
     });
   }
- 
 }
 
