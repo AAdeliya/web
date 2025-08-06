@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-axios.get('http://localhost:3000/users/c328');
+axios.get('http://localhost:3000/users/');
