@@ -47,8 +47,17 @@ events: { [key: string]: Callback[]} = {};
       this.set(response.data);
 
     });
- 
+  }
 
+  save(): void {
+    const id = this.get('id');
+    if (id) {
+      axios.put(`https://localhost:3000/users/${this.get('id')}`, this.data)
+
+    } else {
+      axios.post('http://localhost:3000/users', this.data);
+
+    }
 
   }
 }
