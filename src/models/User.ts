@@ -58,7 +58,6 @@ events: { [key: string]: Callback[]} = {};
       axios.post('http://localhost:3000/users', this.data);
 
     }
-
   }
 }
 
