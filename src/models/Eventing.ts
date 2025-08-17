@@ -9,7 +9,6 @@ export class Eventing {
     this.events[eventName] = handlers;
   }
 
-
   trigger(eventName: string): void {
     const handlers = this.events[eventName];
 
