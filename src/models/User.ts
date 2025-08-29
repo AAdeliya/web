@@ -34,6 +34,8 @@ export class User {
     } else {
       axios.post('http://localhost:3000/users', this.data);
  }
+
   }
+  
 }
 
